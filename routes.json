@@ -1,0 +1,4 @@
+{
+  "/api/request": "/request",
+  "/api/request/:id": "/success/:id"
+}

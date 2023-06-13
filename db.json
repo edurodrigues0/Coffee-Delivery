@@ -1,0 +1,204 @@
+{
+  "coffees": [
+    {
+      "id": 1,
+      "name": "Expresso Tradicional",
+      "types": [
+        "tradicional"
+      ],
+      "description": "O tradicional café feito com água quente e grãos moídos",
+      "price": 9.9
+    },
+    {
+      "id": 2,
+      "name": "Expresso Americano",
+      "types": [
+        "Ttradicional"
+      ],
+      "description": "Expresso diluído, menos intenso que o tradicional",
+      "price": 13.25
+    },
+    {
+      "id": 3,
+      "name": "Expresso Cremoso",
+      "types": [
+        "Tradicional"
+      ],
+      "description": "Café expresso tradicional com espuma cremosa",
+      "price": 15
+    },
+    {
+      "id": 4,
+      "name": "Expresso Gelado",
+      "types": [
+        "Tradicional",
+        "Gelado"
+      ],
+      "description": "Bebida preparada com café expresso e cubos de gelo",
+      "price": 19.6
+    },
+    {
+      "id": 5,
+      "name": "Café com Leite",
+      "types": [
+        "Tradicional",
+        "Com Leite"
+      ],
+      "description": "Meio a meio de expresso tradicional com leite vaporizado",
+      "price": 9.9
+    },
+    {
+      "id": 6,
+      "name": "Latte",
+      "types": [
+        "Tradicional",
+        "Com Leite"
+      ],
+      "description": "Uma dose de café expresso com o dobro de leite e espuma cremosa",
+      "price": 19.1
+    },
+    {
+      "id": 7,
+      "name": "Capuccino",
+      "types": [
+        "Tradicional",
+        "Com Leite"
+      ],
+      "description": "Bebida com canela feita de doses iguais de café, leite e espuma",
+      "price": 23.7
+    },
+    {
+      "id": 8,
+      "name": "Macchiato",
+      "types": [
+        "Tradicional",
+        "Com Leite"
+      ],
+      "description": "Café expresso misturado com um pouco de leite quente e espuma",
+      "price": 20.9
+    },
+    {
+      "id": 9,
+      "name": "Mocaccino",
+      "types": [
+        "Tradicional",
+        "Com Leite"
+      ],
+      "description": "Café expresso com calda de chocolate, pouco leite e espuma",
+      "price": 15.8
+    },
+    {
+      "id": 10,
+      "name": "Chocolate Quente",
+      "types": [
+        "Especial",
+        "Com Leite"
+      ],
+      "description": "Bebida feita com chocolate dissolvido no leite quente e café",
+      "price": 21.55
+    },
+    {
+      "id": 11,
+      "name": "Cubano",
+      "types": [
+        "Especial",
+        "Alcoólico",
+        "Gelado"
+      ],
+      "description": "Drink gelado de café expresso com rum, creme de leite e hortelã",
+      "price": 25.7
+    },
+    {
+      "id": 12,
+      "name": "Havaiano",
+      "types": [
+        "Especial"
+      ],
+      "description": "Bebida adocicada preparada com café e leite de coco",
+      "price": 18.3
+    },
+    {
+      "id": 13,
+      "name": "Árabe",
+      "types": [
+        "Especial"
+      ],
+      "description": "Bebida preparada com grãos de café árabe e especiarias",
+      "price": 24.3
+    },
+    {
+      "id": 14,
+      "name": "Irlandês",
+      "types": [
+        "Especial",
+        "Alcoólico"
+      ],
+      "description": "Bebida à base de café, uísque irlandês, açúcar e chantilly",
+      "price": 29.9
+    }
+  ],
+  "request": [
+    {
+      "cep": "38190-000",
+      "street": "São Miguel",
+      "city": "Sacramento",
+      "number": "239A",
+      "district": "Chafariz",
+      "state": "MG",
+      "complement": "",
+      "payment": "debit",
+      "delivered": false,
+      "id": "e8755e55-2e45-4eb8-8405-db77f4fc5481",
+      "createdAt": "2023-06-13T21:22:19.759Z",
+      "coffees": [
+        {
+          "id": 1,
+          "name": "Expresso Tradicional",
+          "price": 9.9,
+          "amount": 2
+        },
+        {
+          "id": 9,
+          "name": "Mocaccino",
+          "price": 15.8,
+          "amount": 1
+        }
+      ],
+      "total": 39.1
+    },
+    {
+      "cep": "38190-000",
+      "street": "Rua Torquato Ribeiro da Silva",
+      "city": "Sacramento",
+      "number": "190",
+      "district": "Cervato IV",
+      "state": "Mg",
+      "complement": "",
+      "payment": "credit",
+      "delivered": true,
+      "id": "aabd85d2-e5c8-4cbc-999e-e0872b2cfded",
+      "createdAt": "2023-06-13T21:27:25.752Z",
+      "coffees": [
+        {
+          "id": 3,
+          "name": "Expresso Cremoso",
+          "price": 15,
+          "amount": 1
+        },
+        {
+          "id": 2,
+          "name": "Expresso Americano",
+          "price": 13.25,
+          "amount": 1
+        },
+        {
+          "id": 1,
+          "name": "Expresso Tradicional",
+          "price": 9.9,
+          "amount": 1
+        }
+      ],
+      "total": 41.65
+    }
+  ]
+}
